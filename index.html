@@ -10,67 +10,118 @@
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./plugin/mmenu-light/mmenu-light.css" />
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <div id="app">
-        <nav class="header">
+        <div class="header">
             <div class="container">
-                <a href="#" class="logo">
-                    <img src="" alt="logo" />
-                </a>
-                <ul class="menu">
-                    <li class="menu-item"><a href="#" class="menu-link">ABOUT</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link"></a>TEAM</li>
-                    <li class="menu-item"><a href="#" class="menu-link"></a>ROADMAP</li>
-                    <li class="menu-item"><a href="#" class="menu-link"></a>ALLOCATION</li>
-                    <li class="menu-item"><a href="#" class="menu-link"></a>PARTNER</li>
-                    <li class="menu-item"><a href="#" class="menu-link"></a>CONTACT</li>
-                </ul>
+                <div class="menu-wrap d-flex align-items-center justify-content-between">
+                    <div class="wrap-logo">
+                        <a href="#" class="logo">
+                            <img src="./img/logo.png" alt="logo" />
+                        </a>
+                        <a href="#menu" class="btn btn-light d-lg-none toggle-menu ml-3">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </div>
 
-                <a href="" class="btn menu-button">
-                    CLAIM NOW
-                </a>
+                    <nav id="menu">
+                        <ul class="menu">
+                            <li class="menu-item"><a href="#" class="menu-link active">ABOUT</a></li>
+                            <li class="menu-item"><a href="#" class="menu-link">TEAM</a></li>
+                            <li class="menu-item"><a href="#" class="menu-link">ROADMAP</a></li>
+                            <li class="menu-item"><a href="#" class="menu-link">ALLOCATION</a></li>
+                            <li class="menu-item"><a href="#" class="menu-link">PARTNER</a></li>
+                            <li class="menu-item"><a href="#" class="menu-link">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                    <a href="#" class="btn btn-main menu-button">
+                        <span>CLAIM NOW</span>
+                    </a>
+                </div>
             </div>
-        </nav>
+        </div>
 
         <main>
             <div class="block block-banner">
                 <div class="block-content">
                     <div class="container">
-                        <div class="col-md-6">
-                            <div class="banner-left">
-                                <div class="banner-subtitle">Why Choose Us</div>
-                                <div class="banner-tittle">
-                                    EFFORTLESS <br> CRYPTO INVESTING
-                                </div>
-                                <div class="banner-desc">
-                                    The simple way to grow your money
-                                    like the world’s most sophisticated investors
-                                </div>
-                                <a hre="#" class="btn banner-button">CLAIM NOW</a>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="banner-left">
+                                    <div class="banner-subtitle">Why Choose Us</div>
+                                    <div class="banner-tittle">
+                                        EFFORTLESS <br> CRYPTO INVESTING
+                                    </div>
+                                    <div class="banner-bar">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="banner-desc">
+                                        The simple way to grow your money
+                                        like the world’s most sophisticated investors
+                                    </div>
+                                    <div class="banner-control">
+                                        <a hre="#" class="btn btn-main banner-button"><span>CLAIM NOW</span></a>
+                                        <a hre="#"
+                                            class="btn btn-main btn-border banner-button"><span>LITEPAPER</span></a>
+                                    </div>
 
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 d-flex flex-wrap justify-content-center">
+                                <div class="banner-animation-wrap">
+                                    <div class="banner-animation">
+                                        <div id="banner-ani-1"></div>
+                                        <p>The fast & simpleway <br>
+                                            to invest crypto</p>
+                                    </div>
+                                </div>
+                                <div class="banner-animation-wrap">
+                                    <div class="banner-animation">
+                                        <div id="banner-ani-2"></div>
+                                        <p>Professional, Safe & Secure</p>
+                                    </div>
+                                </div>
+                                <div class="banner-animation-wrap">
+                                    <div class="banner-animation">
+                                        <div id="banner-ani-3"></div>
+                                        <p>Multi- Currency Support</p>
+                                    </div>
+                                </div>
+                                <div class="banner-animation-wrap">
+                                    <div class="banner-animation">
+                                        <div id="banner-ani-4"></div>
+                                        <p>Our people are available <br>
+                                            for you 24/7</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="col-md-6"></div>
                     </div>
                 </div>
             </div>
 
-            <block class="block block-about">
+            <div class="block block-about">
                 <div class="block-content">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg-7 d-flex align-items-center">
                                 <div class="about-left">
                                     <div id="about-animation"></div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-lg-5">
                                 <div class="about-right">
                                     <div class="about-title">
                                         ABOUT US
+                                    </div>
+                                    <div class="about-bar">
+                                        <img src="./img/about-bar.png" alt="about">
                                     </div>
                                     <div class="about-desc">
                                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
@@ -89,20 +140,20 @@
                                             old.
                                             Richard McClintock, a Latin professor at Hampden-Sydney.</p>
                                     </div>
-                                    <a href="#" class="btn about-button">CLAIM TOKEN</a>
+                                    <a href="#" class="btn btn-main about-button">CLAIM TOKEN</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </block>
+            </div>
 
             <div class="block block-expert">
                 <div class="block-content">
                     <div class="container">
                         <div class="expert-title">OUR EXPERT</div>
                         <div class="expert-bar">
-                            <img src="" alt="bar">
+                            <img src="./img/experct-bar.png" alt="bar">
                         </div>
                         <div class="expert-desc">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum massa
@@ -114,7 +165,7 @@
                                 <div class="col-md-3">
                                     <div class="expert-item">
                                         <div class="expert-img">
-                                            <img src="" alt="expert">
+                                            <img src="./img/ava1.png" alt="expert">
                                         </div>
 
                                         <div class="expert-meta">
@@ -126,7 +177,7 @@
                                 <div class="col-md-3">
                                     <div class="expert-item">
                                         <div class="expert-img">
-                                            <img src="" alt="expert">
+                                            <img src="./img/ava2.png" alt="expert">
                                         </div>
 
                                         <div class="expert-meta">
@@ -138,7 +189,7 @@
                                 <div class="col-md-3">
                                     <div class="expert-item">
                                         <div class="expert-img">
-                                            <img src="" alt="expert">
+                                            <img src="./img/ava3.png" alt="expert">
                                         </div>
 
                                         <div class="expert-meta">
@@ -150,7 +201,7 @@
                                 <div class="col-md-3">
                                     <div class="expert-item">
                                         <div class="expert-img">
-                                            <img src="" alt="expert">
+                                            <img src="./img/ava4.png" alt="expert">
                                         </div>
 
                                         <div class="expert-meta">
@@ -169,14 +220,14 @@
                 <div class="block-content">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg-7">
                                 <div class="token-left">
                                     <div id="token-animation">
 
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-lg-5">
                                 <div class="token-right">
                                     <div class="token-subtitle">
                                         Token Distribution
@@ -184,7 +235,9 @@
                                     <div class="token-title">
                                         TOKEN SALE STARS
                                     </div>
-                                    <img src="" class="token-bar" alt="">
+                                    <div class="token-bar">
+                                        <img src="./img/token-bar.png" alt="tokenbar">
+                                    </div>
                                     <div class="token-desc">
                                         <div class="token-desc-content">
                                             The ICO usually takes place before the project is complete and
@@ -210,7 +263,7 @@
                                     <div class="token-list">
                                         <div class="token-item">
                                             <div class="token-icon">
-                                                <img src="" alt="">
+                                                <img src="./img/cube.png" alt="cube">
                                             </div>
                                             <div class="token-value">
                                                 Symbol: <strong>CIC</strong>
@@ -218,7 +271,7 @@
                                         </div>
                                         <div class="token-item">
                                             <div class="token-icon">
-                                                <img src="" alt="">
+                                                <img src="./img/coin.png" alt="coin">
                                             </div>
                                             <div class="token-value">
                                                 Initial Value: <strong>1 ETH = 3177.38 CIC</strong>
@@ -226,7 +279,7 @@
                                         </div>
                                         <div class="token-item">
                                             <div class="token-icon">
-                                                <img src="" alt="">
+                                                <img src="./img/text-box.png" alt="text-box">
                                             </div>
                                             <div class="token-value">
                                                 Type: <strong>ERC20</strong>
@@ -244,56 +297,72 @@
                 <div class="block-content">
                     <div class="container">
                         <div class="sheet-title">IMPLEMENTATION SHEET</div>
-                        <img src="" alt="" class="sheet-bar">
+                        <div class="sheet-bar">
+                            <img src="./img/experct-bar.png" alt="bar">
+                        </div>
                         <div class="sheet-desc">
                             This is a list of cryptocurrencies. the number of cryptocurrencies available over
                             the internet as of 07 January 2018 is over 1384 and growing.
                         </div>
 
-                        <div class="sheet-roadmap">
-                            <div class="sheet-line-bg">
-                                <div class="sheet-line-main"></div>
-                            </div>
+                        <div class="roadmap-warp">
+                            <div class="sheet-roadmap">
+                                <div class="sheet-line-bg">
+                                    <div class="sheet-line-main"></div>
+                                </div>
 
-                            <div class="time-item">
-                                <div class="time-date">November 2019</div>
-                                <div class="time-desc">
-                                    Crypto Ico
-                                    Platform idea
-                                </div>
-                            </div>
-                            <div class="time-item">
-                                <div class="time-date">January 2020</div>
-                                <div class="time-desc">
-                                    Crypto Ico
-                                    Platform idea
-                                </div>
-                            </div>
-                            <div class="time-item">
-                                <div class="time-date">August 2022</div>
-                                <div class="time-desc">
-                                    Crypto Ico
-                                    Platform idea
-                                </div>
-                            </div>
-                            <div class="time-item">
-                                <div class="time-date">November 2023</div>
-                                <div class="time-desc">
-                                    Crypto Ico
-                                    Platform idea
-                                </div>
-                            </div>
-
-                            <div class="tim-now">
-                                <div class="time-now-date">
-                                    <div class="time-now-year">
-                                        May 2021
-                                    </div>
-                                    <div class="time-now-desc">
-                                        Ico Realese
+                                <div class="time-item time-down time-down-1">
+                                    <img src="./img/time-line-down-left.png" alt="left">
+                                    <div class="wrap-time-meta">
+                                        <div class="time-date">November 2019</div>
+                                        <div class="time-desc">
+                                            Crypto Ico
+                                            Platform idea
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="time-now-label">Live Now</div>
+                                <div class="time-item time-up time-up-1">
+                                    <img src="./img/time-line-up-left.png" alt="left">
+                                    <div class="wrap-time-meta">
+                                        <div class="time-date">January 2020</div>
+                                        <div class="time-desc">
+                                            Crypto Ico
+                                            Platform idea
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="time-item time-up time-up-2">
+                                    <img src="./img/time-line-up-right.png" alt="left">
+                                    <div class="wrap-time-meta">
+                                        <div class="time-date">August 2022</div>
+                                        <div class="time-desc">
+                                            Crypto Ico
+                                            Platform idea
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="time-item time-down time-down-2">
+                                    <img src="./img/time-line-down-right.png" alt="left">
+                                    <div class="wrap-time-meta">
+                                        <div class="time-date">November 2023</div>
+                                        <div class="time-desc">
+                                            Crypto Ico
+                                            Platform idea
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tim-now">
+                                    <div class="time-now-date">
+                                        <div class="time-now-year">
+                                            May 2021
+                                        </div>
+                                        <div class="time-now-desc">
+                                            Ico Realese
+                                        </div>
+                                    </div>
+                                    <div class="time-now-label">Live Now</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -304,42 +373,42 @@
                 <div class="block-content">
                     <div class="container">
                         <div class="faq-tab">
-                            <div class="wrap-nav">
+                            <div class="wrap-nav d-flex align-items-end justify-content-between">
                                 <div class="faq-header">
                                     <div class="faq-title">
                                         FAQS
                                     </div>
                                     <div class="faq-bar">
-                                        <img src="" alt="faq-bar">
+                                        <img src="./img/faq-bar.png" alt="faq-bar">
                                     </div>
                                     <div class="faq-desc">Frequently asked questions</div>
                                 </div>
-                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill"
-                                            href="#pills-home" role="tab" aria-controls="pills-home"
-                                            aria-selected="true">General Questions</a>
+                                        <a class="nav-link active" id="pills-general-tab" data-toggle="pill"
+                                            href="#pills-general" role="tab" aria-controls="pills-general"
+                                            aria-selected="true"><span>General Questions</span></a>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill"
-                                            href="#pills-profile" role="tab" aria-controls="pills-profile"
-                                            aria-selected="false">ICO Questions</a>
+                                        <a class="nav-link" id="pills-ico-tab" data-toggle="pill" href="#pills-ico"
+                                            role="tab" aria-controls="pills-ico" aria-selected="false"><span>ICO
+                                                Questions</span></a>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill"
-                                            href="#pills-contact" role="tab" aria-controls="pills-contact"
-                                            aria-selected="false">ICO Questions</a>
+                                        <a class="nav-link" id="pills-token-tab" data-toggle="pill" href="#pills-token"
+                                            role="tab" aria-controls="pills-token" aria-selected="false"><span>Token
+                                                Sale</span></a>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill"
-                                            href="#pills-contact" role="tab" aria-controls="pills-contact"
-                                            aria-selected="false">Investors</a>
+                                        <a class="nav-link" id="pills-investors-tab" data-toggle="pill"
+                                            href="#pills-investors" role="tab" aria-controls="pills-investors"
+                                            aria-selected="false"><span>Investors</span></a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="tab-content" id="pills-tabContent">
-                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                                    aria-labelledby="pills-home-tab">
+                                <div class="tab-pane fade show active" id="pills-general" role="tabpanel"
+                                    aria-labelledby="pills-general-tab">
                                     <div class="list-faq">
                                         <div class="accordion" id="accordionExample">
                                             <div class="card">
@@ -348,7 +417,8 @@
                                                         <button class="btn btn-link btn-block text-left" type="button"
                                                             data-toggle="collapse" data-target="#collapseOne"
                                                             aria-expanded="true" aria-controls="collapseOne">
-                                                            What cruptocurrencies can I use to purchase?
+                                                            What cruptocurrencies can I use to purchase? <i
+                                                                class="fas fa-chevron-down"></i>
                                                         </button>
                                                     </h2>
                                                 </div>
@@ -380,6 +450,7 @@
                                                             data-target="#collapseTwo" aria-expanded="false"
                                                             aria-controls="collapseTwo">
                                                             How Cryptoz different from other ICO
+                                                            <i class="fas fa-chevron-down"></i>
                                                         </button>
                                                     </h2>
                                                 </div>
@@ -410,11 +481,117 @@
                                                             data-target="#collapseThree" aria-expanded="false"
                                                             aria-controls="collapseThree">
                                                             What is Cryptoz Smart Contract
+                                                            <i class="fas fa-chevron-down"></i>
                                                         </button>
                                                     </h2>
                                                 </div>
                                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                                     data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        <img src="./img/dots.png" alt="dots">
+                                                        <div class="card-content">
+                                                            To calculate the number of tokens you will receive, you can
+                                                            follow the following formula. Note that this applies to
+                                                            public presale contributions only. If you participated
+                                                            through a
+                                                            syndicate or private presale to calculate the number of
+                                                            tokens you will receive, you can follow the following
+                                                            formula.
+                                                            Note that this applies to public presale contributions
+                                                            only. If you participated through a syndicate or private
+                                                            presale
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" id="headingThree2">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-left collapsed"
+                                                            type="button" data-toggle="collapse"
+                                                            data-target="#collapseThree" aria-expanded="false"
+                                                            aria-controls="collapseThree">
+                                                            What is Cryptoz business model ?
+                                                            <i class="fas fa-chevron-down"></i>
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree2"
+                                                    data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        <img src="./img/dots.png" alt="dots">
+                                                        <div class="card-content">
+                                                            To calculate the number of tokens you will receive, you can
+                                                            follow the following formula. Note that this applies to
+                                                            public presale contributions only. If you participated
+                                                            through a
+                                                            syndicate or private presale to calculate the number of
+                                                            tokens you will receive, you can follow the following
+                                                            formula.
+                                                            Note that this applies to public presale contributions
+                                                            only. If you participated through a syndicate or private
+                                                            presale
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-ico" role="tabpanel"
+                                    aria-labelledby="pills-ico-tab">
+
+                                </div>
+                                <div class="tab-pane fade" id="pills-token" role="tabpanel"
+                                    aria-labelledby="pills-token-tab">
+                                    <div class="list-faq">
+                                        <div class="accordion" id="accordionExample3">
+                                            <div class="card">
+                                                <div class="card-header" id="headingOne">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-left" type="button"
+                                                            data-toggle="collapse" data-target="#collapseOne"
+                                                            aria-expanded="true" aria-controls="collapseOne">
+                                                            What cruptocurrencies can I use to purchase? <i
+                                                                class="fas fa-chevron-down"></i>
+                                                        </button>
+                                                    </h2>
+                                                </div>
+
+                                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                                    data-parent="#accordionExample3">
+                                                    <div class="card-body">
+                                                        <img src="./img/dots.png" alt="dots">
+                                                        <div class="card-content">
+                                                            To calculate the number of tokens you will receive, you can
+                                                            follow the following formula. Note that this applies to
+                                                            public presale contributions only. If you participated
+                                                            through a
+                                                            syndicate or private presale to calculate the number of
+                                                            tokens you will receive, you can follow the following
+                                                            formula.
+                                                            Note that this applies to public presale contributions
+                                                            only. If you participated through a syndicate or private
+                                                            presale
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" id="headingTwo">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-left collapsed"
+                                                            type="button" data-toggle="collapse"
+                                                            data-target="#collapseTwo" aria-expanded="false"
+                                                            aria-controls="collapseTwo">
+                                                            How Cryptoz different from other ICO
+                                                            <i class="fas fa-chevron-down"></i>
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                                    data-parent="#accordionExample3">
                                                     <div class="card-body">
                                                         <img src="./img/dots.png" alt="dots">
                                                         <div class="card-content">
@@ -439,12 +616,44 @@
                                                             type="button" data-toggle="collapse"
                                                             data-target="#collapseThree" aria-expanded="false"
                                                             aria-controls="collapseThree">
-                                                            What is Cryptoz business model ?
+                                                            What is Cryptoz Smart Contract
+                                                            <i class="fas fa-chevron-down"></i>
                                                         </button>
                                                     </h2>
                                                 </div>
                                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                                    data-parent="#accordionExample">
+                                                    data-parent="#accordionExample3">
+                                                    <div class="card-body">
+                                                        <img src="./img/dots.png" alt="dots">
+                                                        <div class="card-content">
+                                                            To calculate the number of tokens you will receive, you can
+                                                            follow the following formula. Note that this applies to
+                                                            public presale contributions only. If you participated
+                                                            through a
+                                                            syndicate or private presale to calculate the number of
+                                                            tokens you will receive, you can follow the following
+                                                            formula.
+                                                            Note that this applies to public presale contributions
+                                                            only. If you participated through a syndicate or private
+                                                            presale
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" id="headingThree2">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-left collapsed"
+                                                            type="button" data-toggle="collapse"
+                                                            data-target="#collapseThree" aria-expanded="false"
+                                                            aria-controls="collapseThree">
+                                                            What is Cryptoz business model ?
+                                                            <i class="fas fa-chevron-down"></i>
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree2"
+                                                    data-parent="#accordionExample3">
                                                     <div class="card-body">
                                                         <img src="./img/dots.png" alt="dots">
                                                         <div class="card-content">
@@ -465,12 +674,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                                    aria-labelledby="pills-profile-tab">
+                                <div class="tab-pane fade" id="pills-investors" role="tabpanel"
+                                    aria-labelledby="pills-investors-tab">
 
                                 </div>
-                                <div class="tab-pane fade" id="pills-contact" role="tabpanel"
-                                    aria-labelledby="pills-contact-tab">...</div>
                             </div>
                         </div>
                     </div>
@@ -481,7 +688,7 @@
                 <div class="block-content">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-xl-5 col-lg-6">
                                 <div class="form-contact">
                                     <div class="form-group">
                                         <label for="name">Your name</label>
@@ -495,9 +702,12 @@
                                         <label for="msg">Your Message</label>
                                         <textarea id="msg" class="form-control" cols="30" rows="10"></textarea>
                                     </div>
+                                    <div class="form-group text-right">
+                                        <button type="submit" class="btn-main btn-send-mess">SEND MESSAGE</button>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-xl-6 col-lg-6 ml-auto d-flex align-items-center">
                                 <div class="contact-right">
                                     <div class="contact-title">
                                         CONTACT
@@ -507,7 +717,7 @@
                                         <img src="./img/contact-bar.png" alt="contact-bar">
                                     </div>
 
-                                    <div class="contact-desc">
+                                    <div class="contact-desc font-weight-bold mb-4">
                                         Contact us with any questions regarding
                                         Crypto ICO
                                     </div>
@@ -537,32 +747,32 @@
                 <div class="block-content">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-6">
                                 <a href="#" class="d-block partner-link">
                                     <img src="./img/partner.png" alt="partner" class="partner-item">
                                 </a>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-6">
                                 <a href="#" class="d-block partner-link">
                                     <img src="./img/partner.png" alt="partner" class="partner-item">
                                 </a>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-6">
                                 <a href="#" class="d-block partner-link">
                                     <img src="./img/partner.png" alt="partner" class="partner-item">
                                 </a>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-6">
                                 <a href="#" class="d-block partner-link">
                                     <img src="./img/partner.png" alt="partner" class="partner-item">
                                 </a>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-6">
                                 <a href="#" class="d-block partner-link">
                                     <img src="./img/partner.png" alt="partner" class="partner-item">
                                 </a>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-6">
                                 <a href="#" class="d-block partner-link">
                                     <img src="./img/partner.png" alt="partner" class="partner-item">
                                 </a>
@@ -577,38 +787,52 @@
             <div class="block block-footer">
                 <div class="block-content">
                     <div class="container">
-                        <div class="footer-title">Stay Updated With Us</div>
+                        <div class="row">
+                            <div class="col-xl-4 col-md-8 mx-auto">
+                                <div class="footer-title">Stay Updated With Us</div>
 
-                        <div class="footer-form">
-                            <input type="text" class="form-control">
-                            <button class="btn" type="submit"><i class="fas fa-chevron-right"></i></button>
-                        </div>
+                                <div class="footer-form">
+                                    <input type="text" class="form-control" placeholder="Enter your email address">
+                                    <button class="btn footer-submit" type="submit"><i
+                                            class="fas fa-chevron-right"></i></button>
+                                </div>
 
-                        <div class="footer-desc">Subcribe now and be the first to find about our latest products !</div>
+                                <div class="footer-desc">Subcribe now and be the first to find about our latest products
+                                    !</div>
 
-                        <div class="footer-social">
-                            <a href="#" class="footer-link">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="footer-link">
-                                <i class="fab fa-telegram-plane"></i>
-                            </a>
-                            <a href="#" class="footer-link">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" class="footer-link">
-                                <i class="fab fa-medium-m"></i>
-                            </a>
-                            <a href="#" class="footer-link">
-                                <i class="fas fa-envelope"></i>
-                            </a>
-                        </div>
+                                <div class="footer-social">
+                                    <a href="#" class="footer-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="footer-link">
+                                        <i class="fab fa-telegram-plane"></i>
+                                    </a>
+                                    <a href="#" class="footer-link">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="footer-link">
+                                        <i class="fab fa-medium-m"></i>
+                                    </a>
+                                    <a href="#" class="footer-link">
+                                        <i class="fas fa-envelope"></i>
+                                    </a>
+                                </div>
 
-                        <div class="footer-coppyright">
-                            Copyright c 2019, Cryto ICO
+                                <div class="footer-coppyright">
+                                    Copyright c 2019, Cryto ICO
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="footer-animation-1-wrap">
+                <div id="footer-animation-1"></div>
+            </div>
+
+            <div class="footer-animation-2-wrap">
+                <div id="footer-animation-2"></div>
             </div>
         </footer>
     </div>
@@ -619,6 +843,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
+    <script src="./plugin/mmenu-light/mmenu-light.polyfills.js"></script>
+    <script src="./plugin/mmenu-light/mmenu-light.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie.min.js"
+        integrity="sha512-w58XJ/0dVbEfZVJoJyBUOTMGBWmIW4jEYJSA0898d2L0Ghpum0FvwK7qTuHhkTctApzrchv3Neli+28ajI4+fg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+        integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/sticky.js"
+        integrity="sha512-xDzuzTeDkAdPcyIBFEslxwsn50IGJoAvBP53yDbM93pfqRYaJyAp7BGl6XxLo7gDh5jwAbH2CCBhlq9ARAwLww=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
